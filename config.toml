@@ -1,0 +1,7 @@
+baseurl = "http://callbacknight.github.io/"
+languageCode = "en-us"
+title = "Callback Night"
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
