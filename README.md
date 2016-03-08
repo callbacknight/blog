@@ -47,5 +47,3 @@ Once you have the site in a state that you like simply deploy using the deploy.s
  This is my first attempt at using [Hugo](https://gohugo.io/) and this particular theme, so please feel free to suggest alternative themes and make edits as you please.
 
  I chose Hugo over Jekyll or the static site generator I've been using up till now, [Nikola](https://getnikola.com/) because of how easy it is to get it installed and the speed with which it builds and serves sites.
-
- ### profit
