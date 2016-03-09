@@ -2,17 +2,19 @@
 
 ### homebrew
 
-  ```
-  brew update && brew install hugo
-  ```
+```
+brew update && brew install hugo
+git clone git@github.com:callbacknight/blog.git
+```
 
 ### without homebrew (masochists)
 
 Install [golang](https://golang.org/dl/) and configure your [GOPATH](https://github.com/golang/go/wiki/GOPATH)
 
-  ```
-  go get -v github.com/spf13/hugo
-  ```
+```
+go get -v github.com/spf13/hugo
+git clone git@github.com:callbacknight/blog.git
+```
 
 ## Usage
 
@@ -22,9 +24,9 @@ Content exists in ./content/posts/
 
 To add a new entry
 
-  ```
-  hugo new posts/entry.md
-  ```
+```
+hugo new posts/entry.md
+```
 
 content is in markdown by default
 
@@ -32,17 +34,17 @@ content is in markdown by default
 
 Hugo is pretty cool; you can make edits to the content and the page will dynamically refresh without needing an extension like autoreload.
 
-  ```
-  hugo server -t lanyon
-  ```
+```
+hugo server -t lanyon
+```
 
 ### Deploy to github pages
 
-Once you have the site in a state that you like simply deploy using the deploy.sh script
+Once you have the site in a state that you like simply deploy using the deploy.sh script. This will build the site and push it to git@github.com:callbacknight/callbacknight.github.io.git on the master branch.
 
-  ```
-  ./deploy.sh
-  ```
+```
+./deploy.sh "optional commit message"
+```
 
  This is my first attempt at using [Hugo](https://gohugo.io/) and this particular theme, so please feel free to suggest alternative themes and make edits as you please.
 
